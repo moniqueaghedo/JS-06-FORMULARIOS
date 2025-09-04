@@ -24,10 +24,11 @@
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
+            
         }
 
         .producto {
-            background-color: #fff;
+            background-color: #f3e2c6;
             border: 1px solid #ddd;
             border-radius: 6px;
             padding: 15px;
@@ -93,7 +94,7 @@
         }
 
         .modal-content {
-            background-color: white;
+            background-color: rgb(195, 250, 241);
             margin: 10% auto;
             padding: 20px;
             border: 1px solid #ccc;
@@ -136,6 +137,11 @@
                 width: 95%;
             }
         }
+        .imagenes {
+            max-width: 78px;
+
+
+        }
     </style>
 </head>
 <body>
@@ -144,43 +150,49 @@
     <!-- ✅ Productos -->
     <div id="productos">
         <div class="producto" data-id="1" data-precio="25.99">
+            <img src="Imagenes/ankara top.webp" alt="top" class="imagenes">
             <h3>Camiseta</h3>
-            <p>Precio: €25.99</p>
+            <p>Precio: €30.50</p>
             <label>Cantidad: </label>
             <input type="number" class="cantidad" min="0" value="0" onchange="calcularTotal()">
         </div>
 
         <div class="producto" data-id="2" data-precio="45.50">
+            <img src="Imagenes/ankara patalon.jpg" alt="top" class="imagenes">
             <h3>Pantalón</h3>
-            <p>Precio: €45.50</p>
+            <p>Precio: €50.00</p>
             <label>Cantidad: </label>
             <input type="number" class="cantidad" min="0" value="0" onchange="calcularTotal()">
         </div>
 
         <div class="producto" data-id="3" data-precio="89.99">
+            <img src="Imagenes/shoe..jpg" alt="top" class="imagenes">
             <h3>Zapatillas</h3>
-            <p>Precio: €89.99</p>
+            <p>Precio: €80.99</p>
             <label>Cantidad: </label>
             <input type="number" class="cantidad" min="0" value="0" onchange="calcularTotal()">
         </div>
 
         <div class="producto" data-id="4" data-precio="15.75">
+            <img src="Imagenes/ggora.jpg" alt="top" class="imagenes">
             <h3>Gorra</h3>
-            <p>Precio: €15.75</p>
+            <p>Precio: €35.99</p>
             <label>Cantidad: </label>
             <input type="number" class="cantidad" min="0" value="0" onchange="calcularTotal()">
         </div>
 
         <div class="producto" data-id="5" data-precio="35.00">
+            <img src="Imagenes/sudadera.jpg" alt="top" class="imagenes">
             <h3>Sudadera</h3>
-            <p>Precio: €35.00</p>
+            <p>Precio: €120.00</p>
             <label>Cantidad: </label>
             <input type="number" class="cantidad" min="0" value="0" onchange="calcularTotal()">
         </div>
 
         <div class="producto" data-id="6" data-precio="17.00">
+            <img src="Imagenes/cinturon.jpg" alt="top" class="imagenes">
             <h3>Cinturón</h3>
-            <p>Precio: €17.00</p>
+            <p>Precio: €25.95</p>
             <label>Cantidad: </label>
             <input type="number" class="cantidad" min="0" value="0" onchange="calcularTotal()">
         </div>
